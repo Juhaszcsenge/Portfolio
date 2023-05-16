@@ -1,26 +1,28 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import 'bootstrap/dist/css/bootstrap.css'
+import { Container } from 'react-bootstrap';
+import Contact from './Components/Contact';
+import Me from './Components/Me';
+import Works from './Components/Works';
+import Service from './Pages/Service';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component{
+  render(){
+      return(
+        <Container className='container'>
+          <Header/>
+          <Me/>
+          <Service/>
+          <Works/>
+          <Contact/>
+        </Container>
+       
+      )
+  }
 }
 
 export default App;

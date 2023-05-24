@@ -181,9 +181,9 @@ width: 96%;
 
   .gif-image {
     position: absolute;
-    width: 35%; /* Válaszd megfelelő méretre, pl. százalékosan a kép méretéhez igazítva */
+    width: 40%; /* Válaszd megfelelő méretre, pl. százalékosan a kép méretéhez igazítva */
     height: auto; /* Az aspect ratio megtartása érdekében használj "auto"-t */
-    border-radius: 50%;
+     border-radius: 30%; 
     z-index: 1;
   }
   
@@ -230,7 +230,7 @@ width: 96%;
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 60%;
+  /* border-radius: 60%; */
 }
 .prof_gif{
     height: auto;

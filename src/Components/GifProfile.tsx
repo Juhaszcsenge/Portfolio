@@ -5,7 +5,7 @@ function GifProfile() {
     <>
       <div className='img_profile'></div>
       <div className='img_profile_wrap'>
-        <img className='cv_profile' src='/cv kep.jpg' alt='profile'></img>
+        <img className='cv_profile' src='/cv.png' alt='profile'></img>
         <div className='prof_gif'>
         <img src='/gif1.gif' alt='gif1' className='gif-image top-left' />
         </div>

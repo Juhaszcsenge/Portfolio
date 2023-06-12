@@ -69,11 +69,21 @@ const downloadCV = () => {
             {/* <button onClick={() => console.log('connect')}>Let's connect<FiArrowRightCircle size={25} /></button> */}
           </Col>
           <Col xs={12} md={6} xl={5} className='order-2 order-md-2'>
-            {/* <img src='/cv kep.jpg' alt='img' /> */}
+            {/* <img src='/cv.png' alt='img' /> */}
             <GifProfile/>
           </Col>
         </Row>
       </Container>
+      <hr className="separator" 
+    style={{
+     width: "50%",
+     margin: "140px auto",
+     border: "none",
+     borderTop: "4px solid",
+     padding: "10px 0",
+     color: "#e055d9",
+     opacity: "1",
+   }} />
     </section>
   );
 }

@@ -1,17 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './Styles';
+import './Navbar.scss'
 import Header from './Components/Header';
 import 'bootstrap/dist/css/bootstrap.css'
-import { Container } from 'react-bootstrap';
-import Contact from './Components/Contact';
 import Me from './Pages/Me';
-import Works from './Components/Works';
-import Service from './Pages/Service';
-import Skills from './Pages/Skills';
+// import Works from './Components/Works';
 import GifProfile from './Components/GifProfile';
 import Skills2 from './Pages/Skills2';
+import Navbar from './Components/Navbar';
+import Projects from './Pages/Projects';
 
 
 
@@ -19,13 +17,15 @@ class App extends React.Component{
   render(){
       return(
         <div>
-          <Header/>
+          {/* <Header/> */}
+          <Navbar/>
           <Me/>
           {/* <Skills/> */}
           <Skills2/>
+          <Projects/>
           {/* <Service/> */}
-          <Works/>
-          <Contact/>
+          {/* <Works/> */}
+          {/* <Contact/> */}
           </div>
       )
   }

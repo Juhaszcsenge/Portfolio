@@ -22,11 +22,10 @@ export default function Skills2() {
         </Row>
        </div>
       <Container>
-      <Row className='align-items-center' style={{marginRight: "110px", padding: "40px"}}>
+      <Row className='align-items-center' style={{marginRight: "110px", padding: "10px"}}>
         <Col  md={6} >
-        <h5>What skills I have</h5>
         <h2>My skills</h2>
-        <p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]' style={{fontSize: "20px"}}>
+        <p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]' style={{fontSize: "20px",  textAlign: "center"}}>
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
@@ -127,6 +126,16 @@ export default function Skills2() {
           </Row>
       </div>
       </Container>
+      <hr className="separator" 
+       style={{
+        width: "50%",
+        margin: "140px auto",
+        border: "none",
+        borderTop: "4px solid",
+        padding: "10px 0",
+        color: "#e055d9",
+        opacity: "1",
+      }} />
     </section>
   );
 }

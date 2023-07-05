@@ -3,7 +3,7 @@ import React from 'react';
 function GifProfile() {
   return (
     <>
-      <div className='img_profile'></div>
+      <div className='img_profile' style={{margin: "25px"}}></div>
       <div className='img_profile_wrap'>
         <img className='cv_profile' src='/cv.png' alt='profile'></img>
         <div className='prof_gif'>

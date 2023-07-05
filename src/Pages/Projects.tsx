@@ -6,15 +6,15 @@ const projects = [{
 
   id: 1,
   image: "/psychology.webp",
-  title: 'Somarven full-stack project - Group project',
-  github: 'https://github.com/Juhaszcsenge/frontend_vizsga',
-  demo:'https://somarven.netlify.app/'
+  title: 'Pszichológus Referencia munka',
+  github: 'https://github.com/Juhaszcsenge/pszichologus_projekt',
+  demo:'https://reactgyakorlas.netlify.app'
 },
  {
   id: 2,
   image: "/psychology.webp",
-  title: 'Breaking Bad Plain JavaScript group-project',
-  github: 'https://github.com/Somdotta07/js-capstone',
+  title: 'Frontend szakdolgozat',
+  github: 'https://github.com/Juhaszcsenge/frontend_vizsga',
   demo:'https://mwanawabangona.github.io/js-capstone/'
   }, 
  {
@@ -24,27 +24,27 @@ const projects = [{
   github: 'https://github.com/Somdotta07/react-redux-capstone',
    demo: 'https://determined-aryabhata-b6bc71.netlify.app/'
   },
-//  {
-//   id: 4,
-//   image: IMG4,
-//   title: 'Recipe App- Built with Ruby & Ruby On Rails-Group project',
-//   github: 'https://github.com/Somdotta07/recipe-blog-1',
-//   demo:'https://gentle-hollows-44027.herokuapp.com/users/sign_in'
-//   },
-//  {
-//   id: 5,
-//   image: IMG5,
-//   title: 'Space Travelers Hub- React-Redux Group project',
-//   github: 'https://github.com/Somdotta07/space-travelers-hub',
-//   demo:'https://cranky-cray-0feacf.netlify.app/'
-//   },
-//  {
-//   id: 6,
-//   image: IMG6,
-//   title: 'Awesome Books - displays, add books',
-//   github: 'https://github.com/Somdotta07/Awesome_Books',
-//   demo:'https://somdotta07.github.io/Awesome_Books/'
-// },
+ {
+  id: 4,
+  image: "/psychology.webp",
+  title: 'Recipe App- Built with Ruby & Ruby On Rails-Group project',
+  github: 'https://github.com/Somdotta07/recipe-blog-1',
+  demo:'https://gentle-hollows-44027.herokuapp.com/users/sign_in'
+  },
+ {
+  id: 5,
+  image: "/psychology.webp",
+  title: 'Space Travelers Hub- React-Redux Group project',
+  github: 'https://github.com/Somdotta07/space-travelers-hub',
+  demo:'https://cranky-cray-0feacf.netlify.app/'
+  },
+ {
+  id: 6,
+  image: "/psychology.webp",
+  title: 'Awesome Books - displays, add books',
+  github: 'https://github.com/Somdotta07/Awesome_Books',
+  demo:'https://somdotta07.github.io/Awesome_Books/'
+},
 ]
 
 const Projects = () => {

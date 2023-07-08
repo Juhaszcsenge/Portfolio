@@ -1,0 +1,127 @@
+.background {
+    padding:  0;
+    position: relative;
+    /* background:    #F7FFE5;  */
+}
+
+.kapcsolat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+
+.formWord .background{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    background-color: rgb(75, 74, 74);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-contact {
+    display: grid;
+    flex-direction: column;
+    gap: 1.2rem;
+    max-width: 40%;
+    margin:  0 auto;
+    padding: 2rem;
+    height: 700px;
+    
+
+}
+
+
+.wrap-contact{
+    background-color: #100d25;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    /* text-align: center; */
+    border: 4px solid transparent;
+    transition: var(--transition);
+    border-color: #100d25;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    /* grid-template-rows: repeat(3, auto); */
+}
+
+input, textarea{
+    /* width: 100%; */
+    margin: 30px;
+    padding: 12px;
+    width: 100%;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 1px solid var (--color-primary-variant);
+    border-color: #151030;
+    resize: none;
+    margin-left: 10px;
+}
+
+textarea{
+    padding: 10px;
+    height: 150px;
+    border: 1px solid var (--color-primary-variant);
+    border-color: #151030;
+}
+
+
+@media screen and (max-width: 1024px){
+    .container-contact {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+   }
+   
+   @media screen and (max-width: 600px){
+    .container-contact {
+       width: var(--container-width-sm);
+       padding: 1rem;
+    }
+   }
+
+
+
+/* A 'Küldés' gomb arányosan nagyítása */
+.formWord button {
+    width: 30%;
+    /* display: inline-block; */
+    padding: 15px;
+    border-radius: 20px; /* Kerekített sarkok beállítása */
+    background-color: #151030 ;
+    border-color: #151030;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 0
+}
+
+/* Az üzenet szöveg balra igazítása */
+.formWord span {
+    display: block;
+    margin-bottom: 0px; /* Opcionális, adhat távolságot az elemek között */
+}
+
+/* Az eredmény szöveg középre igazítása */
+.row {
+    text-align: center;
+    color: black;
+}

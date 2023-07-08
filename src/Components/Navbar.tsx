@@ -1,14 +1,24 @@
 import { AnimatePresence, motion, useCycle } from "framer-motion";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { GoThreeBars, GoX } from "react-icons/go";
 
+const Navbar = () => {
+  const ProjectRef = useRef(null);
+  const SkillsRef = useRef(null);
+  const ContactRef = useRef(null);
+
+  const handleNavItemClick = (ref: any) => {
+    if (ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
 
 const navMobile = [
-    {title: "About me", url: "#aboutme"},
-    {title: "Skills", url: "#skills"},
-    {title: "Works", url: "#works"},
-    {title: "Contact", url: "#contact"},
+    {title: "About me", url: "#Me"},
+    {title: "Skills", url: "#Skills"},
+    {title: "Works", url: "#Project"},
+    {title: "Contact", url: "#Contact"},
     {title: "Linkedin", url: "https://www.linkedin.com/in/juh%C3%A1sz-csenge-803302270/"},
     {title: "GitHub", url: "https://github.com/Juhaszcsenge"},
 ];
@@ -45,9 +55,6 @@ const navItem = {
     },
 };
 
-
-function Navbar(){
-    
     const [works, setWorks] = useState([]);
     const [toggle, setToogle] = useState(false);
     const [open, cycleOpen] = useCycle(false, true);
@@ -190,6 +197,5 @@ function Navbar(){
       </div>
     </div>
     );
-}
-
+  }
 export default Navbar;

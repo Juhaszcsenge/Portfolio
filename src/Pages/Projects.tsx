@@ -5,14 +5,14 @@ import React from "react";
 const projects = [{
 
   id: 1,
-  image: "/psychology.webp",
+  image: "/pszichologus.jpg",
   title: 'Pszichológus Referencia munka',
   github: 'https://github.com/Juhaszcsenge/pszichologus_projekt',
   demo:'https://reactgyakorlas.netlify.app'
 },
  {
   id: 2,
-  image: "/psychology.webp",
+  image: "/perfect.webp",
   title: 'Frontend szakdolgozat',
   github: 'https://github.com/Juhaszcsenge/frontend_vizsga',
   demo:'https://mwanawabangona.github.io/js-capstone/'
@@ -49,8 +49,8 @@ const projects = [{
 
 const Projects = () => {
     return (
-      <section id="project" style={{margin: "10px"}}>
-        <div className="container project_container" style={{borderColor: " #e055d9"}}>
+      <section id="Project" style={{margin: "10px"}}>
+        <div className="container project_container" style={{borderColor: " #e055d9", color: "white"}}>
           {projects.map(({ id, image, title, github, demo }) => {
             return (
               <article key={id} className="project_item" style={{borderColor: " #e055d9"}}>
@@ -73,7 +73,18 @@ const Projects = () => {
             )
           })}               
         </div>
+        <hr className="separator" 
+       style={{
+        width: "50%",
+        margin: "140px auto",
+        border: "none",
+        borderTop: "4px solid",
+        padding: "10px 0",
+        color: "#e055d9",
+        opacity: "1",
+      }} />
       </section>
+      
     );
   };
   

@@ -53,7 +53,7 @@ const downloadCV = () => {
 };
 
   return (
-    <section className='me' id='home'>
+    <section className='me' id='Me'>
       <Container>
         <Row className='align-items-center'>
           <Col xs={12} md={6} xl={7} className='order-1 order-md-1'>

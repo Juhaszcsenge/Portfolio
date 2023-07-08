@@ -14,7 +14,7 @@ import { styles } from '../Styles';
 
 export default function Skills2() {
   return (
-    <section id="experience" style={{ color: "white" }}>
+    <section id="Skills" style={{ color: "white" }}>
         <div className='w-full_flex' style={{ position: 'relative', padding: "20px"}}>
         <Row className='align-items-center' style={{marginRight: "100px"}}>
         <Col  md={6}  >
@@ -22,10 +22,10 @@ export default function Skills2() {
         </Row>
        </div>
       <Container>
-      <Row className='align-items-center' style={{marginRight: "110px", padding: "10px"}}>
+      <Row className='align-items-center' style={{marginRight: "110px", padding: "10px", color:"white"}}>
         <Col  md={6} >
         <h2>My skills</h2>
-        <p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]' style={{fontSize: "20px",  textAlign: "center"}}>
+        <p className='mt-3 text-secondary text-[17px] max-w-3xl ' style={{fontSize: "20px",  textAlign: "center", color: "white"}}>
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
@@ -35,10 +35,10 @@ export default function Skills2() {
         </Col>
         </Row>
       
-      <div className='container experience_container'>
+      <div className='container experience_container' >
         <Row>
           <Col lg = {6}>
-            <div className='experience_frontend'>
+            <div className='experience_frontend' style={{color: "white"}}>
               <h3>Frontend developer</h3>
               <div className='experience_content'>
                 <article className='experience_details'>
@@ -48,7 +48,7 @@ export default function Skills2() {
                     <small className='text-light'>Experienced</small>
                   </div>
                 </article>
-                <article className='experience_details'>
+                <article className='experience_details' >
                     <img src='/css.svg'  className='experience_details-icon' style={{ width: '50px', height: '50px' }} alt='Css' />
                     <div>
                         <h4>Css</h4>
@@ -89,7 +89,7 @@ export default function Skills2() {
           </Row>
           <Row>
           <Col lg = {6}>
-            <div className='experience_backend'>
+            <div className='experience_backend' style={{color: "white"}}>
               <h3>Backend Developer</h3>
               <div className='experience_content'>
                 <article className='experience_details'>

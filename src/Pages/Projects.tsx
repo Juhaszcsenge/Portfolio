@@ -20,23 +20,23 @@ const projects = [{
  {
   id: 3,
   image: "/psychology.webp",
-  title: 'Covid Data-Single page application-React-Redux',
+  title: 'Travel',
   github: 'https://github.com/Somdotta07/react-redux-capstone',
    demo: 'https://determined-aryabhata-b6bc71.netlify.app/'
   },
  {
   id: 4,
-  image: "/psychology.webp",
-  title: 'Recipe App- Built with Ruby & Ruby On Rails-Group project',
-  github: 'https://github.com/Somdotta07/recipe-blog-1',
-  demo:'https://gentle-hollows-44027.herokuapp.com/users/sign_in'
+  image: "/Chat Bot (3).png",
+  title: 'Smart Home',
+  github: 'https://github.com/Juhaszcsenge/Okos-otthon',
+  demo:'https://master--fastidious-salmiakki-b6c8d3.netlify.app/?fbclid=IwAR2hB5eNH30ltu9xUs14cf7n1EmbnmMbsUEVf3-9BPtWHrxwSzQkzfG-XGE'
   },
  {
   id: 5,
-  image: "/psychology.webp",
-  title: 'Space Travelers Hub- React-Redux Group project',
-  github: 'https://github.com/Somdotta07/space-travelers-hub',
-  demo:'https://cranky-cray-0feacf.netlify.app/'
+  image: "/cloud-bg.png",
+  title: 'Data secura',
+  github: 'https://github.com/Juhaszcsenge/data-secure-app',
+  demo:'https://master--monumental-monstera-3fae2a.netlify.app/?fbclid=IwAR032jIZeDsNt73iyW0QnZWjozdaHjdXjupow1C4dHm6rAw-5wxkW86QYk4'
   },
  {
   id: 6,
@@ -54,7 +54,7 @@ const Projects = () => {
           {projects.map(({ id, image, title, github, demo }) => {
             return (
               <article key={id} className="project_item" style={{borderColor: " #e055d9"}}>
-            <div className="project_item-image" style={{borderColor: " #e055d9"}}>
+            <div className="project_item-image" style={{borderColor: " #e055d9", width: "400px", height: "200px"}}>
             <img src={image} alt={title} />
             </div>
                 <h3>{title}</h3>
